@@ -1,240 +1,35 @@
+<%= render "/layouts/navbar"%>
 
-<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
-  <div class="container">
-    <a class="navbar-brand" href="#">Pronozone</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <!-- left navigation links -->
-      <ul class="navbar-nav mr-auto">
 
-        <!-- active navigation link -->
-        <li class="nav-item d-block d-md-none" >
-         <%= image_tag("avatar-CR7.png" , :class =>'avatar') %>
+<div class="jumbotron top7 " id="container1">
 
-        </li>
 
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Live actu
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-
-        <!-- regular navigation link -->
-        <li class="nav-item">
-          <a class="nav-link" href="#">Mes Resultats</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Mon équipe</a>
-        </li>
-
-        <!-- more navigation links -->
-
-      </ul>
-
-      <!-- right navigation link -->
-      <ul class="nav navbar-nav ml-auto">
-        <li class="nav-item d-none d-md-block" >
-         <%= image_tag("avatar-CR7.png" , :class =>'avatar') %>
-
-        </li>
-      </ul>
+  <div class='row justify-content-center'>
+    <div class="col-md-2">
+     
     </div>
-  </div>
-</nav>
-
-<div class="jumbotron top30 " id="container1">
-  <div class="row">
-    
-
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-
-             <%= image_tag("football.jpg" , :class =>'d-block w-100') %>
-          </div>
-          <div class="carousel-item">
-
-            <%= image_tag("football1.jpg" , :class =>'d-block w-100') %>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
-
-
-   
-  </div>
-<div class='row '>
-  <div class="col-md-2">
-    <ul class=" col-md list-group ">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              
-              <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
-          <ul class="col-md list-group top30">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              <li class="list-group-item">Porta ac consectetur ac</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
-  </div>
 
 
   <div class="col-md-8">
 
     <div class="row justify-content-center">
         <div class= 'col-md'>
-          <ul class="list-group shadow-lg">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              <li class="list-group-item">Porta ac consectetur ac</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
+          <%= render "/layouts/carroussel"%>
         </div>
-       
-        <div class= 'col-md' id='colonne1-jumbotron'>
-  
-            <ul class="list-group">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              <li class="list-group-item">Porta ac consectetur ac</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-    
-        </div>
-    </div>
-    <div class= "row top30">
-        <div class= 'col-md'>
-          <ul class="list-group">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              <li class="list-group-item">Porta ac consectetur ac</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
-        </div>
-       
-        <div class= 'col-md' id='colonne1-jumbotron'>
-  
-            <ul class="list-group">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              <li class="list-group-item">Porta ac consectetur ac</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-    
-        </div>
-      
-    </div>
-    <div class= "row top30">
-        <div class= 'col-md'>
-          <ul class="list-group">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              <li class="list-group-item">Porta ac consectetur ac</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-          </ul>
-        </div>
-       
-        <div class= 'col-md' id='colonne1-jumbotron'>
-  
-            <ul class="list-group">
-              <li class="list-group-item">Cras justo odio</li>
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Morbi leo risus</li>
-              <li class="list-group-item">Porta ac consectetur ac</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-    
-        </div>
-      
     </div>
   </div>
+
 
   <div class="col-md-2">
+
   </div>
 
 
 </div>
-</div>  
+</div> 
   
 
-
-<div class="row">
-  <!-- wider column -->
-  <div class="col-md-8 mb-4">
-<div class="row">
-
-  <!-- first nested column -->
-  <div class="col-md text-center">
-    <h3 class="display-4">Title</h3>
-    <p>
-      Paragraph text.
-    </p>
-    <a href="#" class="btn btn-primary">Button</a>
-  </div>
-
-  <!-- second nested column -->
-  <div class="col-md text-center">
-   <h3 class="display-4">Title</h3>
-    <p>
-      Paragraph text.
-    </p>
-    <a href="#" class="btn btn-primary">Button</a>
-  </div>
-
-  <!-- third nested column -->
-  <div class="col-md text-center">
-   <h3 class="display-4">Title</h3>
-    <p>
-      Paragraph text.
-    </p>
-    <a href="#" class="btn btn-primary">Button</a>
-  </div>
-</div>
-  </div>
-  <!-- narrower column -->
-  <div class="col-md-4 mb-4" >
-
-    <ul class="nav nav-pills flex-column">
-  <li class="nav-item">
-    <a class="nav-link active mb-4" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Link</a>
-  </li>
-  <!-- more links -->
-</ul>
-    <!-- sidebar links -->
-  </div>
-</div>
+<%= render "/layouts/footer"%>
 
 
-<footer class="container mt-4">
-  <div class="row">
-    <div class="col">
-      <p class="text-center">Design by <a href="#">Zetiz Labs</a></p>
-    </div>
-  </div>
-</footer>
+
