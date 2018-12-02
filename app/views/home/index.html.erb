@@ -1,6 +1,7 @@
+
 <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
   <div class="container">
-    <a class="navbar-brand" href="#">Responsive Website</a>
+    <a class="navbar-brand" href="#">Pronozone</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -9,15 +10,23 @@
       <ul class="navbar-nav mr-auto">
 
         <!-- active navigation link -->
+        <li class="nav-item d-block d-md-none" >
+         <%= image_tag("avatar-CR7.png" , :class =>'avatar') %>
+
+        </li>
+
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home
+          <a class="nav-link" href="#">Live actu
             <span class="sr-only">(current)</span>
           </a>
         </li>
 
         <!-- regular navigation link -->
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Mes Resultats</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Mon équipe</a>
         </li>
 
         <!-- more navigation links -->
@@ -26,19 +35,118 @@
 
       <!-- right navigation link -->
       <ul class="nav navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
+        <li class="nav-item d-none d-md-block" >
+         <%= image_tag("avatar-CR7.png" , :class =>'avatar') %>
+
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<div class="jumbotron">
-  <h1 class="display-2">Learn Geometry</h1>
-  <p class="lead">Marketing message here.</p>
-  <a class="btn btn-lg btn-primary" href="#" role="button">Call to Action »</a>
+<div class="jumbotron top30 " id="container1">
+<div class='row '>
+  <div class="col-md-2">
+    <ul class=" col-md list-group ">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              
+              <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+          <ul class="col-md list-group top30">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+  </div>
+
+
+  <div class="col-md-8">
+
+    <div class="row justify-content-center">
+        <div class= 'col-md'>
+          <ul class="list-group shadow-lg">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        </div>
+       
+        <div class= 'col-md' id='colonne1-jumbotron'>
+  
+            <ul class="list-group">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+    
+        </div>
+    </div>
+    <div class= "row top30">
+        <div class= 'col-md'>
+          <ul class="list-group">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        </div>
+       
+        <div class= 'col-md' id='colonne1-jumbotron'>
+  
+            <ul class="list-group">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+    
+        </div>
+      
+    </div>
+    <div class= "row top30">
+        <div class= 'col-md'>
+          <ul class="list-group">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        </div>
+       
+        <div class= 'col-md' id='colonne1-jumbotron'>
+  
+            <ul class="list-group">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Morbi leo risus</li>
+              <li class="list-group-item">Porta ac consectetur ac</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+    
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="col-md-2">
+  </div>
+
+
 </div>
+</div>  
+  
+
 
 <div class="row">
   <!-- wider column -->
@@ -46,7 +154,7 @@
 <div class="row">
 
   <!-- first nested column -->
-  <div class="col-md">
+  <div class="col-md text-center">
     <h3 class="display-4">Title</h3>
     <p>
       Paragraph text.
@@ -55,7 +163,7 @@
   </div>
 
   <!-- second nested column -->
-  <div class="col-md">
+  <div class="col-md text-center">
    <h3 class="display-4">Title</h3>
     <p>
       Paragraph text.
@@ -64,7 +172,7 @@
   </div>
 
   <!-- third nested column -->
-  <div class="col-md">
+  <div class="col-md text-center">
    <h3 class="display-4">Title</h3>
     <p>
       Paragraph text.
@@ -74,14 +182,14 @@
 </div>
   </div>
   <!-- narrower column -->
-  <div class="col-md-4 mb-4">
+  <div class="col-md-4 mb-4" >
 
     <ul class="nav nav-pills flex-column">
   <li class="nav-item">
-    <a class="nav-link active" href="#">Active</a>
+    <a class="nav-link active mb-4" href="#">Active</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+    <a class="nav-link active" href="#">Link</a>
   </li>
   <!-- more links -->
 </ul>
