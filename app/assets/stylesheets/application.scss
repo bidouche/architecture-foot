@@ -28,28 +28,57 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
- 
+ @media (min-width: 1200px) {
+
+.jumbotron1 {
+
+        
+    }
+
+}
+
+#jumbotron1 {
+  height:650px;
+  background-color: rgb(239,240,241);
+    }
+
+
+.img-responsive {
+    width: 100%;
+}
 
 .avatar {
 	border-radius: 50%;
 }
 
-.jumbotron {
-	z-index: 0;
-    height: 100vh;
-    background-image: image-url('football1.jpg');
-    background-repeat: no-repeat;
-    background-color: rgb(245,246,248);
-    background-position: center;
-    background-size: cover;
+.carousel-item {
+	height:450px;
+	
+   margin-left: auto;
+   margin-right: auto;
+   
+;
 }
 
 
+
+a {
+	color: white;
+}
+
+
+
+.top3 { margin-top: 3px; }
 .top5 { margin-top:5px; }
 .top7 { margin-top:7px; }
 .top10 { margin-top:10px; }
 .top15 { margin-top:15px; }
 .top17 { margin-top:17px; }
 .top30 { margin-top:30px; }
+.top50 { margin-top:50px; }
+.top56 { margin-top:56px; }
+.top60 { margin-top:60px; }
 .bottom30 { margin-bottom:30px; }
+
+.right5 { margin-right:5px; }
 
