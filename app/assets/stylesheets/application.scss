@@ -1,0 +1,76 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+/* Custom bootstrap variables must be set or imported *before* bootstrap.*/
+@import "bootstrap";
+@import "profil_sidebar.scss";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Roboto", sans-serif;
+}
+ 
+#container-général {
+	background-color: rgb(242,242,242);
+	height: 100vh;
+	overflow:hidden
+
+}
+
+#navbar-général {
+	height: 56px;
+	color: white;
+	background-color: rgb(0,68,98);
+}
+
+
+#sidebar-général {
+
+	color: white;
+	background-color: rgb(78,78,78);
+}
+#avatar {
+	border-radius: 50px;
+}
+li {
+	
+	list-style-type: none;
+}
+.navbar {
+	
+	text-align: center;
+}
+
+#content-container {
+	color: white;
+	
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+
+.col-md-2 {
+
+    white-space: nowrap;
+}
